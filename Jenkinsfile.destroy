@@ -2,13 +2,13 @@ pipeline {
     agent any
 
     environment {
-        TF_WORKSPACE = "default"         
+        TF_WORKSPACE = "default"        
     }
 
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'develop', url: 'https://github.com/manju230/manju-yes-lab.git'
+                git branch: 'develop', url: 'https://github.com/manju230/terraform-vpc-cicd-deployment.git'
             }
         }
 
