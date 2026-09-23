@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'develop', url: 'https://github.com/manju230/terraform-vpc-cicd-deployment.git'
+               git branch: 'develop', url: 'https://github.com/ashwini02025/terraform-vpc-cicd-deployment.git'
             }
         }
 
